@@ -69,6 +69,7 @@ p {
 	transition: 0.3s;
 	background-color: #FFEE00;
 }
+
 #header {
 	header {
 		padding: 30px 0;
@@ -163,14 +164,11 @@ p {
 		content: '';
 		position: absolute;
 		top: 0; left: 0; bottom: 0; right: 0;
-		// z-index: -1;
-		// background-color: #303030;
 		background: url('images/slaider-bg2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position-y: 55%;
 		opacity: .3;
-		// width: 100%;
 	}
 }
 
@@ -379,54 +377,4 @@ footer {
 			font-weight: 11px;
 		}
 	}
-
-
 }
-
-/*
-
-header {
-	padding: 30px 0;
-	display: flex;
-	justify-content: space-between;
-
-	.logo {
-		height: 40px;
-		text-align: left;
-		.text { 
-			margin-left: 10px;
-			display: inline-block; 
-			vertical-align: top;
-			p { 
-				line-height: 18px;
-				font-weight: 11px;
-			}
-		}
-	}
-
-	.callback {
-		text-align: right;
-
-		.number {
-			margin-right: 25px;
-			display: inline-block;
-			p { 
-				line-height: 18px;
-				font-weight: 11px;
-			}
-		}
-
-		.button {
-			display: inline-block;
-			border: 2px solid black;
-			padding: 7px 23px;
-			vertical-align: top;
-			background: none;
-		}
-		.button:hover {
-			background: none;
-		}
-	}
-}
-
-*/
