@@ -181,7 +181,7 @@ main #secondBlock {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     main #secondBlock .items .item {
-      max-width: 226px;
+      width: 226px;
       padding: 35px;
       padding-top: 50px;
       border: 2px solid #F6F6F6; }
@@ -226,11 +226,13 @@ main #fourthBlock {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-    justify-content: space-around; }
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
     main #fourthBlock .items .item {
       padding: 18px;
       border: 2px solid #F4F4F4;
-      width: 200px;
+      width: 180px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -255,6 +257,8 @@ main #fourthBlock {
           color: white;
           text-transform: uppercase;
           font-size: 10px; }
+      main #fourthBlock .items .item h3 {
+        font-size: 13px; }
       main #fourthBlock .items .item .price {
         margin: 15px auto; }
         main #fourthBlock .items .item .price * {
@@ -398,4 +402,14 @@ footer {
     padding: 0; }
     #header #slaider .wrapper span {
       display: block;
+      margin: 10px auto; } }
+
+@media (max-width: 920px) {
+  main #secondBlock .items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    main #secondBlock .items .item {
       margin: 10px auto; } }

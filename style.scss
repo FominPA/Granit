@@ -183,7 +183,7 @@ main {
 			justify-content: space-around;
 
 			.item {
-				max-width: 226px;
+				width: 226px;
 				padding: 35px;
 				padding-top: 50px;
 				border: 2px solid #F6F6F6;
@@ -232,11 +232,12 @@ main {
 		.items {
 			display: flex;
 			justify-content: space-around;
+			flex-wrap: wrap;
 
 			.item {
 				padding: 18px;
 				border: 2px solid #F4F4F4;
-				width: 200px;
+				width: 180px;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
@@ -257,6 +258,8 @@ main {
 						font-size: 10px;
 					}
 				}
+
+				h3 { font-size: 13px; }
 
 				.price {
 					margin: 15px auto;
@@ -399,6 +402,18 @@ footer {
 		#slaider .wrapper {
 			padding: 0;
 			span { display: block; margin: 10px auto; }
+		}
+	}
+}
+
+main {
+	#secondBlock {
+		@media (max-width: 920px) {
+			.items {
+				flex-wrap: wrap;
+				align-items: center;
+				.item { margin: 10px auto; }
+			}
 		}
 	}
 }
