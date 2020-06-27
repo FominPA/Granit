@@ -181,11 +181,13 @@ main {
 		.items {
 			display: flex;
 			justify-content: space-around;
+			flex-wrap: wrap;
 
 			.item {
 				width: 226px;
 				padding: 35px;
 				padding-top: 50px;
+				margin: 10px auto;
 				border: 2px solid #F6F6F6;
 				img {
 					max-width: 100%;
@@ -235,6 +237,7 @@ main {
 			flex-wrap: wrap;
 
 			.item {
+				margin: 10px auto;
 				padding: 18px;
 				border: 2px solid #F4F4F4;
 				width: 180px;
@@ -402,18 +405,6 @@ footer {
 		#slaider .wrapper {
 			padding: 0;
 			span { display: block; margin: 10px auto; }
-		}
-	}
-}
-
-main {
-	#secondBlock {
-		@media (max-width: 920px) {
-			.items {
-				flex-wrap: wrap;
-				align-items: center;
-				.item { margin: 10px auto; }
-			}
 		}
 	}
 }
