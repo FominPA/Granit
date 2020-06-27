@@ -71,7 +71,7 @@ p {
   transition: 0.3s;
   background-color: #FFEE00; }
 
-header {
+#header header {
   padding: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,34 +79,34 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  header .logo {
+  #header header .logo {
     height: 40px;
     text-align: left; }
-    header .logo .text {
+    #header header .logo .text {
       margin-left: 10px;
       display: inline-block;
       vertical-align: top; }
-      header .logo .text p {
+      #header header .logo .text p {
         line-height: 18px;
         font-weight: 11px; }
-  header .callback {
+  #header header .callback {
     text-align: right; }
-    header .callback .number {
+    #header header .callback .number {
       margin-right: 25px;
       display: inline-block; }
-      header .callback .number p {
+      #header header .callback .number p {
         line-height: 18px;
         font-weight: 11px; }
-    header .callback .button {
+    #header header .callback .button {
       display: inline-block;
       border: 2px solid black;
       padding: 7px 23px;
       vertical-align: top;
       background: none; }
-    header .callback .button:hover {
+    #header header .callback .button:hover {
       background: none; }
 
-menu {
+#header menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,7 +114,7 @@ menu {
   margin-bottom: -30px;
   position: relative;
   z-index: 2; }
-  menu a {
+  #header menu a {
     width: calc(100% / 6);
     text-align: center;
     background-color: #FFCC00;
@@ -122,15 +122,15 @@ menu {
     font-weight: 600;
     font-size: 14px;
     line-height: 22px; }
-    menu a li {
+    #header menu a li {
       padding: 19px 0; }
-  menu a:hover {
+  #header menu a:hover {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
     background-color: #FFEE00; }
 
-#slaider {
+#header #slaider {
   height: 550px;
   width: 100%;
   position: relative;
@@ -144,27 +144,27 @@ menu {
   flex-direction: column;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
-  #slaider .wrapper {
+  #header #slaider .wrapper {
     position: relative;
     z-index: 1;
     width: 100%; }
-    #slaider .wrapper * {
+    #header #slaider .wrapper * {
       color: white; }
-    #slaider .wrapper .link {
+    #header #slaider .wrapper .link {
       border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
-    #slaider .wrapper .link:hover {
+    #header #slaider .wrapper .link:hover {
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s;
       border-bottom: 1px solid white; }
-    #slaider .wrapper span {
+    #header #slaider .wrapper span {
       margin: 0px 20px; }
-    #slaider .wrapper p {
+    #header #slaider .wrapper p {
       margin: 20px 0px 40px; }
-    #slaider .wrapper .button {
+    #header #slaider .wrapper .button {
       color: #000; }
 
-#slaider:before {
+#header #slaider:before {
   content: '';
   position: absolute;
   top: 0;
@@ -177,65 +177,65 @@ menu {
   background-position-y: 55%;
   opacity: .3; }
 
-#secondBlock {
+main #secondBlock {
   padding: 80px 0;
   text-align: center; }
-  #secondBlock h2 {
+  main #secondBlock h2 {
     margin-bottom: 60px; }
-  #secondBlock .items {
+  main #secondBlock .items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-    #secondBlock .items .item {
+    main #secondBlock .items .item {
       max-width: 226px;
       padding: 35px;
       padding-top: 50px;
       border: 2px solid #F6F6F6; }
-      #secondBlock .items .item img {
+      main #secondBlock .items .item img {
         max-width: 100%; }
-      #secondBlock .items .item h3 {
+      main #secondBlock .items .item h3 {
         margin: 25px 0; }
-      #secondBlock .items .item .button {
+      main #secondBlock .items .item .button {
         padding: 14px 50px; }
 
-#thirdBlock {
+main #thirdBlock {
   text-align: center;
   background-color: #F4F4F4;
   padding: 80px 0; }
-  #thirdBlock h2 {
+  main #thirdBlock h2 {
     margin-bottom: 80px; }
-  #thirdBlock .items {
+  main #thirdBlock .items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-    #thirdBlock .items .item {
+    main #thirdBlock .items .item {
       padding: 40px 25px;
       width: 244px;
       border: 2px solid white; }
-      #thirdBlock .items .item h3 {
+      main #thirdBlock .items .item h3 {
         margin: 35px 0 20px; }
-    #thirdBlock .items .item:hover {
+    main #thirdBlock .items .item:hover {
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s;
       background-color: #fff; }
 
-#fourthBlock {
+main #fourthBlock {
   text-align: center;
   padding: 80px 0; }
-  #fourthBlock h2 {
+  main #fourthBlock h2 {
     margin-bottom: 80px; }
-  #fourthBlock .items {
+  main #fourthBlock .items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-    #fourthBlock .items .item {
+    main #fourthBlock .items .item {
       padding: 18px;
       border: 2px solid #F4F4F4;
       width: 200px;
@@ -249,13 +249,13 @@ menu {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; }
-      #fourthBlock .items .item .image {
+      main #fourthBlock .items .item .image {
         text-align: left;
         margin: 0 auto 10px;
         width: 180px;
         height: 155px;
         background-size: cover; }
-        #fourthBlock .items .item .image .sale {
+        main #fourthBlock .items .item .image .sale {
           margin: 10px;
           padding: 2px 10px;
           background-color: red;
@@ -263,61 +263,61 @@ menu {
           color: white;
           text-transform: uppercase;
           font-size: 10px; }
-      #fourthBlock .items .item .price {
+      main #fourthBlock .items .item .price {
         margin: 15px auto; }
-        #fourthBlock .items .item .price * {
+        main #fourthBlock .items .item .price * {
           display: inline-block;
           vertical-align: middle; }
-        #fourthBlock .items .item .price .hotPrice {
+        main #fourthBlock .items .item .price .hotPrice {
           color: red; }
-        #fourthBlock .items .item .price .oldPrice {
+        main #fourthBlock .items .item .price .oldPrice {
           font-size: 11px; }
-      #fourthBlock .items .item .button {
+      main #fourthBlock .items .item .button {
         padding: 15px 50px; }
-    #fourthBlock .items .item1 .image {
+    main #fourthBlock .items .item1 .image {
       background-image: url("images/pop-product-bg1.png"); }
-    #fourthBlock .items .item2 .image {
+    main #fourthBlock .items .item2 .image {
       background-image: url("images/pop-product-bg2.png"); }
-    #fourthBlock .items .item3 .image {
+    main #fourthBlock .items .item3 .image {
       background-image: url("images/pop-product-bg3.png"); }
-    #fourthBlock .items .item4 .image {
+    main #fourthBlock .items .item4 .image {
       background-image: url("images/pop-product-bg4.png"); }
 
-#fifthBlock {
+main #fifthBlock {
   text-align: center;
   padding: 80px 0;
   background-color: #F4F4F4; }
-  #fifthBlock h2 {
+  main #fifthBlock h2 {
     margin-bottom: 80px; }
-  #fifthBlock .items {
+  main #fifthBlock .items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-    #fifthBlock .items .item {
+    main #fifthBlock .items .item {
       padding: 40px 25px 20px;
       width: 244px;
       border: 2px solid white; }
-      #fifthBlock .items .item h3 {
+      main #fifthBlock .items .item h3 {
         margin-top: 30px; }
-      #fifthBlock .items .item img {
+      main #fifthBlock .items .item img {
         height: 112px; }
 
-#contacts {
+main #contacts {
   height: 520px;
   background-image: url("images/contacts-bg.png");
   background-repeat: no-repeat;
   background-position-x: 50%; }
-  #contacts .wrapper {
+  main #contacts .wrapper {
     padding: 80px 5px; }
-    #contacts .wrapper .block {
+    main #contacts .wrapper .block {
       margin-left: 60%;
       width: calc(40% - 130px);
       padding: 60px 70px 70px 60px;
       height: 230px;
       background-color: #fff; }
-      #contacts .wrapper .block .content {
+      main #contacts .wrapper .block .content {
         margin-top: 43px;
         display: -ms-grid;
         display: grid;
@@ -327,11 +327,11 @@ menu {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between; }
-        #contacts .wrapper .block .content img {
+        main #contacts .wrapper .block .content img {
           width: 14px; }
-        #contacts .wrapper .block .content * {
+        main #contacts .wrapper .block .content * {
           line-height: normal; }
-        #contacts .wrapper .block .content p {
+        main #contacts .wrapper .block .content p {
           font-weight: 400;
           color: #000;
           font-size: 14px; }
