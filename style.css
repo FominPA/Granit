@@ -374,3 +374,28 @@ footer {
     footer .number p {
       line-height: 18px;
       font-weight: 11px; }
+
+@media (max-width: 680px) {
+  #header header .logo .text {
+    display: none; }
+  #header #slaider {
+    text-align: center; }
+    #header #slaider .wrapper a, #header #slaider .wrapper span {
+      display: inline-block; } }
+
+@media (max-width: 530px) {
+  #header .menu {
+    display: none; }
+  #header #slaider {
+    margin-top: 30px; } }
+
+@media (max-width: 450px) {
+  #header header {
+    display: none; }
+  #header #slaider {
+    margin-top: 0; }
+  #header #slaider .wrapper {
+    padding: 0; }
+    #header #slaider .wrapper span {
+      display: block;
+      margin: 10px auto; } }
