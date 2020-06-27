@@ -11,9 +11,6 @@ a {
   font-size: 12px;
   line-height: 22px; }
 
-menu li {
-  list-style-type: none; }
-
 html {
   background-color: #282828; }
 
@@ -106,7 +103,7 @@ p {
     #header header .callback .button:hover {
       background: none; }
 
-#header menu {
+#header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,17 +111,16 @@ p {
   margin-bottom: -30px;
   position: relative;
   z-index: 2; }
-  #header menu a {
+  #header .menu .menuItem {
     width: calc(100% / 6);
     text-align: center;
     background-color: #FFCC00;
+    padding: 19px 0;
     font-family: 'GothamPro', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 22px; }
-    #header menu a li {
-      padding: 19px 0; }
-  #header menu a:hover {
+  #header .menu .menuItem:hover {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
