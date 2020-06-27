@@ -11,11 +11,7 @@ a {
   font-size: 12px;
   line-height: 22px; }
 
-html {
-  background-color: #282828; }
-
 body {
-  margin-bottom: 200px;
   background-color: #fff; }
 
 @media (min-width: 1920px) {
