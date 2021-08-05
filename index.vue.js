@@ -1,18 +1,12 @@
-// import yellow-button from '_button/_button';
-
 const index = Vue.createApp({
-	data: {
-		test: 'Hello, Vue!',
-	},
-
-	сomponents: {
-		// yellow-button
-	}
-})
+	data() { return {
+		test: 'hello, Vue',
+	}}
+});
 
 index.component('yellow-button', {
-	props: ['value', 'href'],
-	template: `<a :href="href" class="button">{{ value }}</a>`
+	props: ['text'],
+	template: `<a class="button">{{ text }}</a>`
 })
 
-index.mount('#secondBlock');
+index.mount('body');
