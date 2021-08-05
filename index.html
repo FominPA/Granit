@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Granit</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/vue@next"></script>
 </head>
 <body>
 	<div id="header">
@@ -46,7 +47,8 @@
 				<p>бетона, щебня, песка <br>
 				и других нерудных материалов <br>
 				по Москве и Московской области</p>
-				<a href="#" class="button">Подробнее о доставке</a>
+				<!-- <a href="#" class="button">Подробнее о доставке</a> -->
+				<yellow-button href='#', value='Подробнее о доставке'></yellow-button>
 				<span>или</span>
 				<a href="#" class="link">перейти в каталог</a>
 			</div>
@@ -54,6 +56,7 @@
 	</div>
 	<main>
 		<div id="secondBlock">
+		<h1>{{ test }}</h1>
 			<div class="wrapper">
 				<h2>Всегда в наличии</h2>
 				<div class="items">
@@ -204,5 +207,6 @@
 		</div>
 	</footer>
 	<script src="burger.js"></script>
+	<script src="index.vue.js"></script>
 </body>
 </html>

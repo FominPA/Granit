@@ -61,17 +61,7 @@ p {
 	color: #969696;
 }
 
-.button {
-	display: inline-block;
-	background-color: #FFD200;
-	padding: 14px 30px;
-	color: black;
-}
-
-.button:hover {
-	transition: 0.3s;
-	background-color: #FFEE00;
-}
+@import url('_button/_button.css');
 
 #header {
 	header {
@@ -106,7 +96,7 @@ p {
 			}
 
 			.button {
-				display: inline-block;
+				// display: inline-block;
 				border: 2px solid black;
 				padding: 7px 23px;
 				vertical-align: top;
@@ -328,8 +318,6 @@ main {
 					.hotPrice { color: red; }
 					.oldPrice { font-size: 11px; }
 				}
-
-				.button { padding: 15px 50px; }
 			}
 
 			.item1 .image { background-image: url('images/pop-product-bg1.png'); }
@@ -397,7 +385,7 @@ footer {
 	* { color: white; }
 
 	.button {
-		display: inline-block;
+		// display: inline-block;
 		border: 2px solid white;
 		padding: 7px 23px;
 		background: none;
