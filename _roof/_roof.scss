@@ -1,0 +1,10 @@
+@import url('../_logo/_logo.css');
+@import url('../_feedback/_feedback.css');
+@import url('../_menu/_menu.css');
+
+.roof__top {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 530px) { display: none; }
+}

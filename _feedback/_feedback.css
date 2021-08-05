@@ -1,0 +1,20 @@
+.feedback {
+  text-align: right; }
+
+.feedback__number {
+  margin-right: 25px;
+  display: inline-block; }
+
+.feedback__description {
+  line-height: 18px;
+  font-weight: 11px; }
+
+.feedback__button {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 7px 23px;
+  vertical-align: top;
+  background: none; }
+
+.feedback__button:hover {
+  background: none; }

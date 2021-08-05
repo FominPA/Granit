@@ -7,6 +7,6 @@ burger.onclick = function() {
 	console.log('click');
 	menu.classList.toggle("menu");
 	menu.classList.toggle("mobile-menu");
-	burger.classList.toggle("open");
-	burger.classList.toggle("close");
+	burger.classList.toggle("burger_open");
+	burger.classList.toggle("burger_close");
 }

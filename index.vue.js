@@ -1,12 +1,13 @@
+import { indexHeader } from './_header/_header.vue.js';
+
 const index = Vue.createApp({
 	data() { return {
 		test: 'hello, Vue',
-	}}
-});
+	}},
 
-index.component('yellow-button', {
-	props: ['text'],
-	template: `<a class="button">{{ text }}</a>`
-})
+	components: {
+		'index-header': indexHeader,
+	}
+});
 
 index.mount('body');
