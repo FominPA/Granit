@@ -1,7 +1,7 @@
 import { yellowButton } from '../_button/_button.vue.js';
 import { roof } from '../_roof/_roof.vue.js';
 
-export const indexHeader = {
+export const header = {
 	props: [],
 
 	components: {
