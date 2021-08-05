@@ -1,0 +1,23 @@
+{
+  "name": "granit",
+  "version": "1.0.0",
+  "description": "\"free project on BEM and Vue\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FominPA/Granit.git"
+  },
+  "author": "Fomin Pavel <webdev.fominpa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FominPA/Granit/issues"
+  },
+  "homepage": "https://github.com/FominPA/Granit#readme",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.1.5",
+    "vue": "^3.1.5"
+  }
+}
