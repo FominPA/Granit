@@ -1,0 +1,32 @@
+.catalog {
+  padding: 80px 0;
+  text-align: center; }
+
+.catalog__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 60px; }
+
+.catalog__item {
+  width: 226px;
+  padding: 35px;
+  padding-top: 50px;
+  margin: 10px auto;
+  border: 2px solid #F6F6F6; }
+
+.catalog__item-image {
+  max-width: 100%; }
+
+.catalog__item-title {
+  margin: 25px 0; }
+
+.catalog__item-price {
+  margin: 25px 0; }
+
+.catalog__item-button {
+  padding: 14px 50px; }

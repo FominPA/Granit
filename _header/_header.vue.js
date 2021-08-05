@@ -18,7 +18,7 @@ export const header = {
 				<p class="header__description">бетона, щебня, песка <br>
 				и других нерудных материалов <br>
 				по Москве и Московской области</p>
-				<yellow-button href='#' text='Подробнее о доставке' class="header__button"></yellow-button>
+				<yellow-button buttonHref='#' text='Подробнее о доставке' class="header__button"></yellow-button>
 				<span class="header__separator">или</span>
 				<a href="#" class="header__link link">перейти в каталог</a>
 			</div>
