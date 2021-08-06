@@ -1,0 +1,9 @@
+.wrapper {
+  max-width: 940px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto; }
+
+@media (min-width: 1920px) {
+  .wrapper {
+    min-width: calc(50% - 20px); } }

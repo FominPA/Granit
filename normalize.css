@@ -1,12 +1,4 @@
 @import url("GothamPro/stylesheet.css");
-@import url("_button/_button.css");
-@import url("_header/_header.css");
-@import url("_catalog/_catalog.css");
-@import url("_our-advantages/_our-advantages.css");
-@import url("_popular/_popular.css");
-@import url("_our-services/_our-services.css");
-@import url("_contacts/_contacts.css");
-@import url("_footer/_footer.css");
 * {
   margin: 0;
   padding: 0; }
@@ -22,16 +14,6 @@ a {
 body {
   background-color: #fff;
   min-width: 320px; }
-
-.wrapper {
-  max-width: 940px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: auto; }
-
-@media (min-width: 1920px) {
-  .wrapper {
-    min-width: calc(50% - 20px); } }
 
 h1 {
   font-family: 'GothamPro', sans-serif;
