@@ -13,30 +13,30 @@ export const catalog = {
 		<div class="catalog__items">
 
 			<catalogProduct
-				imageurl = "_catalog/images/sand.png"
-				imagealt = 'sand'
+				imageUrl = "_catalog/images/sand.png"
+				imageAlt = 'sand'
 				title = 'Песок речной'
 				description = 'Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он входит.'
 				price = 'от 330 р./т'
-				hrefabout = '#'
+				hrefAbout = '#'
 			></catalogProduct>
 
 			<catalogProduct
-				imageurl = "_catalog/images/dirt.png"
-				imagealt = 'dirt'
+				imageUrl = "_catalog/images/dirt.png"
+				imageAlt = 'dirt'
 				title = 'Щебень'
 				description = 'Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он входит.'
 				price = 'от 330 р./т'
-				hrefabout = '#'
+				hrefAbout = '#'
 			></catalogProduct>
 
 			<catalogProduct
-				imageurl = "_catalog/images/stone.png"
-				imagealt = 'stone'
+				imageUrl = "_catalog/images/stone.png"
+				imageAlt = 'stone'
 				title = 'Грунт'
 				description = 'Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он входит.'
 				price = 'от 330 р./т'
-				hrefabout = '#'
+				hrefAbout = '#'
 			></catalogProduct>
 		</div>
 	</section>`,

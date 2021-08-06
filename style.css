@@ -2,6 +2,8 @@
 @import url("_button/_button.css");
 @import url("_header/_header.css");
 @import url("_catalog/_catalog.css");
+@import url("_our-advantages/_our-advantages.css");
+@import url("_popular/_popular.css");
 * {
   margin: 0;
   padding: 0; }
@@ -54,92 +56,6 @@ p {
   font-weight: 300;
   line-height: 22px;
   color: #969696; }
-
-main #thirdBlock {
-  text-align: center;
-  background-color: #F4F4F4;
-  padding: 80px 0; }
-  main #thirdBlock h2 {
-    margin-bottom: 80px; }
-  main #thirdBlock .items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around; }
-    main #thirdBlock .items .item {
-      padding: 40px 25px;
-      width: 244px;
-      border: 2px solid white; }
-      main #thirdBlock .items .item h3 {
-        margin: 35px 0 20px; }
-    main #thirdBlock .items .item:hover {
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s;
-      background-color: #fff; }
-
-main #fourthBlock {
-  text-align: center;
-  padding: 80px 0; }
-  main #fourthBlock h2 {
-    margin-bottom: 80px; }
-  main #fourthBlock .items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    main #fourthBlock .items .item {
-      margin: 10px auto;
-      padding: 18px;
-      border: 2px solid #F4F4F4;
-      width: 180px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
-      main #fourthBlock .items .item .image {
-        text-align: left;
-        margin: 0 auto 10px;
-        width: 180px;
-        height: 155px;
-        background-size: cover; }
-        main #fourthBlock .items .item .image .sale {
-          margin: 10px;
-          padding: 2px 10px;
-          background-color: red;
-          display: inline-block;
-          color: white;
-          text-transform: uppercase;
-          font-size: 10px; }
-      main #fourthBlock .items .item h3 {
-        font-size: 13px; }
-      main #fourthBlock .items .item .price {
-        margin: 15px auto; }
-        main #fourthBlock .items .item .price * {
-          display: inline-block;
-          vertical-align: middle; }
-        main #fourthBlock .items .item .price .hotPrice {
-          color: red; }
-        main #fourthBlock .items .item .price .oldPrice {
-          font-size: 11px; }
-    main #fourthBlock .items .item1 .image {
-      background-image: url("images/pop-product-bg1.png"); }
-    main #fourthBlock .items .item2 .image {
-      background-image: url("images/pop-product-bg2.png"); }
-    main #fourthBlock .items .item3 .image {
-      background-image: url("images/pop-product-bg3.png"); }
-    main #fourthBlock .items .item4 .image {
-      background-image: url("images/pop-product-bg4.png"); }
 
 main #fifthBlock {
   text-align: center;
@@ -241,13 +157,6 @@ footer {
       font-weight: 11px; }
 
 @media (max-width: 900px) {
-  main #thirdBlock .items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-    main #thirdBlock .items .item {
-      margin: 10px auto; }
   main #fifthBlock .items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
