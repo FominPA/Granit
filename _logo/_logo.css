@@ -6,10 +6,18 @@
   margin-left: 10px;
   display: inline-block;
   vertical-align: top; }
-  @media (max-width: 680px) {
-    .logo__text {
-      display: none; } }
 
 .logo__description {
   line-height: 18px;
   font-weight: 11px; }
+
+@media (max-width: 680px) {
+  .logo_roof .logo__text {
+    display: none; } }
+
+.logo_footer .logo__title {
+  letter-spacing: 5pt; }
+
+@media (max-width: 500px) {
+  .logo_footer .logo__text {
+    display: none; } }

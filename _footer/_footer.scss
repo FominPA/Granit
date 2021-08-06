@@ -1,0 +1,22 @@
+@import url('../_logo/_logo.css');
+@import url('../_feedback/_feedback.css');
+
+.footer {
+	background-color: #292929;
+	padding: 50px 0 45px;
+	* { color: white; }
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer__column_left { align-items: flex-start; }
+.footer__column_right { align-items: flex-end; }

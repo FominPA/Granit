@@ -4,6 +4,9 @@
 @import url("_catalog/_catalog.css");
 @import url("_our-advantages/_our-advantages.css");
 @import url("_popular/_popular.css");
+@import url("_our-services/_our-services.css");
+@import url("_contacts/_contacts.css");
+@import url("_footer/_footer.css");
 * {
   margin: 0;
   padding: 0; }
@@ -56,123 +59,3 @@ p {
   font-weight: 300;
   line-height: 22px;
   color: #969696; }
-
-main #fifthBlock {
-  text-align: center;
-  padding: 80px 0;
-  background-color: #F4F4F4; }
-  main #fifthBlock h2 {
-    margin-bottom: 80px; }
-  main #fifthBlock .items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around; }
-    main #fifthBlock .items .item {
-      padding: 40px 25px 20px;
-      width: 244px;
-      border: 2px solid white; }
-      main #fifthBlock .items .item h3 {
-        margin-top: 30px; }
-      main #fifthBlock .items .item img {
-        height: 112px; }
-
-main #contacts {
-  height: 520px;
-  background-image: url("images/contacts-bg.png");
-  background-repeat: no-repeat;
-  background-position-x: 50%; }
-  main #contacts .wrapper {
-    padding: 80px 5px; }
-    main #contacts .wrapper .block {
-      margin-left: 60%;
-      width: calc(40% - 130px);
-      padding: 60px 70px 70px 60px;
-      height: 230px;
-      background-color: #fff; }
-      main #contacts .wrapper .block .content {
-        margin-top: 43px;
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 32px 1fr;
-        grid-template-columns: 32px 1fr;
-        height: 165px;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between; }
-        main #contacts .wrapper .block .content img {
-          width: 14px; }
-        main #contacts .wrapper .block .content * {
-          line-height: normal; }
-        main #contacts .wrapper .block .content p {
-          font-weight: 400;
-          color: #000;
-          font-size: 14px; }
-
-footer {
-  background-color: #292929; }
-  footer * {
-    color: white; }
-  footer .button {
-    border: 2px solid white;
-    padding: 7px 23px;
-    background: none;
-    color: white; }
-  footer .button:hover {
-    background: none; }
-  footer .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-  footer .top {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    padding: 50px 10px 20px; }
-  footer .bottom {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    padding-bottom: 45px; }
-  footer .logo {
-    height: 40px;
-    text-align: left; }
-    footer .logo .text {
-      margin-left: 10px;
-      display: inline-block;
-      vertical-align: top; }
-      footer .logo .text h2 {
-        letter-spacing: 5pt; }
-      footer .logo .text p {
-        line-height: 18px;
-        font-weight: 11px; }
-  footer .number {
-    text-align: right; }
-    footer .number p {
-      line-height: 18px;
-      font-weight: 11px; }
-
-@media (max-width: 900px) {
-  main #fifthBlock .items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-    main #fifthBlock .items .item {
-      margin: 10px auto; }
-  main #contacts {
-    display: none; } }
-
-@media (max-width: 480px) {
-  footer .top {
-    display: none; }
-  footer .bottom .button {
-    display: none; }
-  footer .bottom p {
-    margin: auto; }
-  footer .bottom {
-    padding: 20px 5px; } }

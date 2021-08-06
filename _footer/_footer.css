@@ -1,0 +1,37 @@
+@import url("../_logo/_logo.css");
+@import url("../_feedback/_feedback.css");
+.footer {
+  background-color: #292929;
+  padding: 50px 0 45px; }
+  .footer * {
+    color: white; }
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footer__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footer__column_left {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.footer__column_right {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }

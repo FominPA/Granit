@@ -13,11 +13,15 @@ export const roof = {
 		`<div class="roof wrapper">
 			<div class="roof__top">
 				<logo
+					class = 'logo_roof'
 					imageUrl = '_logo/images/black-logo.png'
 					title = 'Granit'
 					description = 'Доставка нерудных материалов'
 				></logo>
-				<feedback number = '8 800 342-13-33'></feedback>
+				<feedback
+					class = 'feedback_roof'
+					number = '8 800 342-13-33'
+				></feedback>
 			</div>
 			<my-menu></my-menu>
 		</div>`,

@@ -10,7 +10,7 @@ export const popular = {
 		<h2 class="popular__title">Популярные товары</h2>
 		<div class="popular__items">
 			<popularProduct
-				bgUrl = 'images/pop-product-bg1.png'
+				bgUrl = '_popular/images/pop-product-bg1.png'
 				hrefBuy = '#'
 				title = 'Гранитный щебень 5-20мм'
 				sale = 'true'
@@ -20,7 +20,7 @@ export const popular = {
 			></popularProduct>
 
 			<popularProduct
-				bgUrl = 'images/pop-product-bg2.png'
+				bgUrl = '_popular/images/pop-product-bg2.png'
 				hrefBuy = '#'
 				title = 'Гранитный щебень 5-20мм'
 				sale = 'true'
@@ -30,7 +30,7 @@ export const popular = {
 			></popularProduct>
 
 			<popularProduct
-				bgUrl = 'images/pop-product-bg3.png'
+				bgUrl = '_popular/images/pop-product-bg3.png'
 				hrefBuy = '#'
 				title = 'Гранитный щебень 0-5мм (отбор)'
 				sale = ''
@@ -40,7 +40,7 @@ export const popular = {
 			></popularProduct>
 
 			<popularProduct
-				bgUrl = 'images/pop-product-bg4.png'
+				bgUrl = '_popular/images/pop-product-bg4.png'
 				hrefBuy = '#'
 				title = 'Гранитный щебень 5-20мм'
 				sale = ''

@@ -2,7 +2,6 @@
   text-align: right; }
 
 .feedback__number {
-  margin-right: 25px;
   display: inline-block; }
 
 .feedback__description {
@@ -10,11 +9,22 @@
   font-weight: 11px; }
 
 .feedback__button {
-  display: inline-block;
-  border: 2px solid black;
+  border: 2px solid;
   padding: 7px 23px;
   vertical-align: top;
   background: none; }
 
 .feedback__button:hover {
   background: none; }
+
+.feedback_roof .feedback__button {
+  border-color: black; }
+
+.feedback_roof .feedback__number {
+  margin-right: 25px; }
+
+.feedback_footer .feedback__button {
+  border-color: white; }
+
+.feedback_footer .feedback__number {
+  margin-bottom: 20px; }

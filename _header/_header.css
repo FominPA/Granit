@@ -14,25 +14,31 @@
   flex-direction: column;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
-  .header__content .header__inner {
-    position: relative;
-    z-index: 1;
-    width: 100%; }
-    .header__content .header__inner * {
-      color: white; }
-    .header__content .header__inner .header__link {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
-    .header__content .header__inner .header__link:hover {
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s;
-      border-bottom: 1px solid white; }
-    .header__content .header__inner .header__separator {
-      margin: 0px 20px; }
-    .header__content .header__inner .header__description {
-      margin: 20px 0px 40px; }
-    .header__content .header__inner .header__button {
-      color: #000; }
+
+.header__inner {
+  position: relative;
+  z-index: 1;
+  width: calc(100% - 20px); }
+  .header__inner * {
+    color: white; }
+
+.header__link {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+
+.header__link:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 1px solid white; }
+
+.header__separator {
+  margin: 0px 20px; }
+
+.header__description {
+  margin: 20px 0px 40px; }
+
+.header__button {
+  color: #000; }
 
 .header__content:before {
   content: '';
