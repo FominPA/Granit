@@ -9,11 +9,15 @@
 .mobile-menu {
 	position: absolute;	
 	top: 0;
-	background-color: rgba(255,255,255,1);
+	background-color: #FFCC00;
 	z-index: 2;
 	left: 0;
 	width: 100vw;
 	padding: 40px 0;
+	height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .menu__item {

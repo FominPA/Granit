@@ -1,7 +1,20 @@
 export const menu = {
+
+	methods: {
+		burgerSwitch() {
+			let burger = document.querySelector('.burger');
+			let menu = (document.querySelector('.menu') || document.querySelector('.mobile-menu'));
+			menu.classList.toggle("menu");
+			menu.classList.toggle("mobile-menu");
+			burger.classList.toggle("burger_open");
+			burger.classList.toggle("burger_close");
+		}
+	},
+
 	props: ['menu-items'],
+
 	template:
-		`<div class="burger burger_close">
+		`<div @click='burgerSwitch()' class="burger burger_close">
 			<div class="burger__hl burger__top"></div>
 			<div class="burger__hl"></div>
 			<div class="burger__hl burger__down"></div>
