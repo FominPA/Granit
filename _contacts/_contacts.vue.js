@@ -1,4 +1,5 @@
 export const contacts = {
+
 	props: ['mapurl', 'address', 'mail', 'numbers'],
 
 	template: 
@@ -9,8 +10,7 @@ export const contacts = {
 				<div class="contacts__content">
 					<img src="_contacts/images/phone-icon.png" alt="icon" class="contacts__icon">
 					<div class="contacts__numbers">
-						<h3 class="contacts__number">8 800 034-23-34</h3>
-						<h3 class="contacts__number">8 495 034-23-34</h3>
+						<h3 class="contacts__number" v-for="number in numbers">{{ number }}</h3>
 					</div>
 					<img src="_contacts/images/location-icon.png" alt="icon" class="contacts__icon">
 					<p class="contacts__description">{{ address }}</p>
